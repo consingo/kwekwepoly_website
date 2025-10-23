@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kwekwe Polytechnic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logos.jpg" alt="Kwekwe Polytechnic Logo" class="logo" />
+    <h1>Kwekwe Polytechnic</h1>
+    <p class="tagline">Empowering Innovation, Shaping Futures</p>
+    <nav class="navbar">
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+  </header>
+  <main>
+    <section>
+      <h2>Welcome to Kwekwe Polytechnic</h2>
+      <p>Kwekwe Polytechnic is a home for everyone — offering technical education that equips students with practical skills for the future. Explore our divisions, student affairs, library, and ICT resources to begin your journey.</p>
+      <p>Students are encouraged to continuously visit the website to see the latest news and notices, including upcoming events like the Police Golf Club gathering in Harare on October 31st, 2025.</p>
+    </section>
+    <section>
+        <h2>Academic Divisions</h2>
+        <ul>
+          <li><strong>Engineering:</strong> Automotive, Civil, Electrical, Mechanical</li>
+          <li><strong>Applied Sciences:</strong> Metallurgy, Laboratory Technology, Food Science</li>
+          <li><strong>ICT:</strong> Information Technology, Computer Systems</li>
+          <li><strong>Commerce:</strong> Office Management, Human Resources</li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Latest News & Events</h2>
+        <p>🎓 Over 1,600 graduates were recently conferred with diplomas, with 81% in STEM fields.</p>
+        <p>🏆 Kwekwe Polytechnic returned victorious from the TESAZ Staff Games.</p>
+        <p>📅 Upcoming: Police Golf Club event in Harare – October 31st, 2025.</p>
+      </section>
+      
+  </main>
+  <footer>
+    <p>&copy; 2025 Kwekwe Polytechnic</p>
+  </footer>
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav-links');
+  
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('show');
+    });
+  </script>
+  
+</body>
+</html>
